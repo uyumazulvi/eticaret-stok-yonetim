@@ -5,7 +5,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://your-render-app.onrender.com/api/:path*"
+      "destination": "https://eticaret-api-4fq5.onrender.com/api/:path*"
     }
   ]
 }

@@ -25,4 +25,4 @@ services:
           name: eticaret-db
           property: connectionString
       - key: FRONTEND_URL
-        value: https://your-app.vercel.app
+        value: https://eticaret-stok-yonetim.vercel.app

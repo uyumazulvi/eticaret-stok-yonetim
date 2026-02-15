@@ -17,7 +17,14 @@
       "Bash(git remote add:*)",
       "Bash(git remote set-url:*)",
       "Bash(git branch:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(TOKEN=\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJhZG1pbkBleGFtcGxlLmNvbSIsInJvbCI6ImFkbWluIiwiaWF0IjoxNzcxMTk1NDg0LCJleHAiOjE3NzE4MDAyODR9.hE_JQ9DSyvadHmrP6PXnRsPuCVZfBevzpjGwSvXcf40\")",
+      "Bash(__NEW_LINE_5cfdcfe61e7cf62a__ curl -s -X POST https://eticaret-api-4fq5.onrender.com/api/products -H \"Content-Type: application/json\" -H \"Authorization: Bearer $TOKEN\" -d '{\"\"urun_adi\"\":\"\"iPhone 15 Pro\"\",\"\"kategori\"\":\"\"Elektronik\"\",\"\"fiyat\"\":65999.99,\"\"stok\"\":25,\"\"kritik_stok_seviyesi\"\":5}')",
+      "Bash(__NEW_LINE_5cfdcfe61e7cf62a__ curl -s -X POST https://eticaret-api-4fq5.onrender.com/api/products -H \"Content-Type: application/json\" -H \"Authorization: Bearer $TOKEN\" -d '{\"\"urun_adi\"\":\"\"MacBook Pro 14\"\",\"\"kategori\"\":\"\"Bilgisayar\"\",\"\"fiyat\"\":89999.99,\"\"stok\"\":15,\"\"kritik_stok_seviyesi\"\":3}')",
+      "Bash(__NEW_LINE_5cfdcfe61e7cf62a__ curl -s -X POST https://eticaret-api-4fq5.onrender.com/api/products -H \"Content-Type: application/json\" -H \"Authorization: Bearer $TOKEN\" -d '{\"\"urun_adi\"\":\"\"Samsung Galaxy S24\"\",\"\"kategori\"\":\"\"Elektronik\"\",\"\"fiyat\"\":49999.99,\"\"stok\"\":30,\"\"kritik_stok_seviyesi\"\":5}')",
+      "Bash(__NEW_LINE_5cfdcfe61e7cf62a__ curl -s -X POST https://eticaret-api-4fq5.onrender.com/api/products -H \"Content-Type: application/json\" -H \"Authorization: Bearer $TOKEN\" -d '{\"\"urun_adi\"\":\"\"Sony WH-1000XM5\"\",\"\"kategori\"\":\"\"Aksesuar\"\",\"\"fiyat\"\":8999.99,\"\"stok\"\":8,\"\"kritik_stok_seviyesi\"\":10}')",
+      "Bash(__NEW_LINE_5cfdcfe61e7cf62a__ curl -s -X POST https://eticaret-api-4fq5.onrender.com/api/products -H \"Content-Type: application/json\" -H \"Authorization: Bearer $TOKEN\" -d '{\"\"urun_adi\"\":\"\"Apple Watch Series 9\"\",\"\"kategori\"\":\"\"Giyilebilir\"\",\"\"fiyat\"\":14999.99,\"\"stok\"\":35,\"\"kritik_stok_seviyesi\"\":10}')",
+      "Bash(__NEW_LINE_5cfdcfe61e7cf62a__ echo \"Ürünler eklendi!\")"
     ]
   }
 }
