@@ -1,0 +1,28 @@
+databases:
+  - name: eticaret-db
+    databaseName: eticaret_db
+    user: eticaret_user
+    plan: free
+    region: frankfurt
+
+services:
+  - type: web
+    name: eticaret-api
+    runtime: node
+    plan: free
+    region: frankfurt
+    buildCommand: cd backend && npm install
+    startCommand: cd backend && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        generateValue: true
+      - key: JWT_EXPIRES_IN
+        value: 7d
+      - key: DATABASE_URL
+        fromDatabase:
+          name: eticaret-db
+          property: connectionString
+      - key: FRONTEND_URL
+        value: https://your-app.vercel.app
