@@ -6,6 +6,10 @@
     {
       "source": "/api/:path*",
       "destination": "https://eticaret-api-4fq5.onrender.com/api/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
